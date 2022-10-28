@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const LiquidBox = ({ children, sx }) => {
+const LiquidBox = ({ children }) => {
   const [animateClass, setAnimateClass] = useState("liquid-on");
 
   useEffect(() => {
